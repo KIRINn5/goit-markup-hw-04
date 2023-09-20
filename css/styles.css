@@ -202,7 +202,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('/images/hero/bg.jpg');
+    url('/images/bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
