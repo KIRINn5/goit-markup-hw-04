@@ -201,19 +201,17 @@ body {
 .hero {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px 0;
-}
-
-.hero-image {
-  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('/images/bg.jpg');
+    url('../images/people-office.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
+  padding: 188px 0;
+  max-width: 1440px;
 }
 
 .hero-image-title {
@@ -275,8 +273,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 264px;
-  height: 112px;
   flex-shrink: 0;
   border-radius: 4px;
   margin-bottom: 8px;
@@ -365,6 +361,7 @@ body {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .people {
   background: #ffffff;
 }
